@@ -1,0 +1,8 @@
+# helm repo add hashicorp https://helm.releases.hashicorp.com
+# helm search repo hashicorp/vault -l
+defaultNamespace: hashicorp
+helm:
+  version: 0.10.0
+  releaseName: vault
+  chart: hashicorp/vault
+  repo: https://helm.releases.hashicorp.com
