@@ -4,5 +4,5 @@ defaultNamespace: hashicorp
 helm:
   version: 0.10.0
   releaseName: vault
-  chart: hashicorp/vault
+  chart: vault
   repo: https://helm.releases.hashicorp.com
