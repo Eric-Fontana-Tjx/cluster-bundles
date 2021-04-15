@@ -1,0 +1,8 @@
+# helm repo add harbor https://helm.goharbor.io
+# helm search repo harbor -l
+defaultNamespace: harbor
+helm:
+  version: 1.6.1
+  releaseName: harbor
+  chart: harbor
+  repo: https://helm.goharbor.io

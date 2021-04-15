@@ -1,0 +1,8 @@
+# helm repo add argo https://argoproj.github.io/argo-helm
+# helm search repo argo -l
+defaultNamespace: argocd
+helm:
+  version: 3.1.1
+  releaseName: argo-cd
+  chart: argo-cd
+  repo: https://argoproj.github.io/argo-helm

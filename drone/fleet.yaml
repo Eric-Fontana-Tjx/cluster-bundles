@@ -1,0 +1,11 @@
+# helm repo add drone https://charts.drone.io
+# helm repo update
+
+# helm repo add hashicorp https://helm.releases.hashicorp.com
+# helm search repo hashicorp/vault -l
+defaultNamespace: drone
+helm:
+  version: 0.1.7
+  releaseName: drone
+  chart: drone
+  repo: https://charts.drone.io
